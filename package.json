@@ -4,7 +4,9 @@
   "main": "index.js",
   "repository": {},
   "scripts": {
-    "start": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack -p",
+    "prod": "node server.js"
   },
   "author": "brieucdlf",
   "license": "MIT",

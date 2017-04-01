@@ -15,8 +15,8 @@ module.exports = {
   entry: './src/index.js',
   //- Specifies the location where the bundled Javascript code is to be saved.
   output: {
-    path: path.resolve('dist'),
-    filename: 'index_bundle.js'
+    path: path.resolve('build'),
+    filename: 'bundle.js'
   },
   module: {
     //- They are transformations that are applied on a file in our app.
