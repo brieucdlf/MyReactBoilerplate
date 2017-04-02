@@ -6,8 +6,8 @@ const app = express();
 app.use(express.static(__dirname));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'build/index.html'));
-})
+  res.sendFile(path.resolve(__dirname, 'index.html'));
+});
 
 app.listen(port);
-console.log('Server is up on port', port + '!');
+console.log('Server is up on port', port);
